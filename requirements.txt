@@ -37,3 +37,5 @@ streamlit
 
 sentence-transformers
 pytube
+pinecone
+langchain-pinecone
