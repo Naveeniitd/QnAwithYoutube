@@ -46,7 +46,7 @@ with st.sidebar:
     st.header("🔧 Settings")
     video_url = st.text_input(
         "Enter YouTube Video URL or ID",
-        value="https://www.youtube.com/watch?v=H2wDeD0Y1qA"
+        value="https://www.youtube.com/watch?v=wVXAFlueS9Y"
     )
     model_choice = st.selectbox("Model", ["gpt-4o-mini", "gpt-3.5-turbo"])
     top_k = st.slider("Top-K Chunks", 1, 10, 4)
