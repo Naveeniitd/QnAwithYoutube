@@ -24,13 +24,13 @@ if 'feedback' not in st.session_state:
     st.session_state['feedback'] = None
 
 # Page config and title
-st.set_page_config(page_title="Q&A with Youtube", layout="centered")
-st.title("🎥 Q&A with Youtube")
+st.set_page_config(page_title="YouTube Q&A", layout="centered")
+st.title("🎥 YouTube Transcript Q&A")
 
 # Inputs
 video_url = st.text_input(
     "Enter YouTube Video URL or ID",
-    value="https://www.youtube.com/watch?v=QY6yHJC2DIE"
+    value="https://www.youtube.com/watch?v=H2wDeD0Y1qA"
 )
 question = st.text_input("Ask a question about the video")
 
