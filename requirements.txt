@@ -1,41 +1,10 @@
-# LangChain Core
+streamlit
+pytube
+youtube-transcript-api
+beautifulsoup4
+python-dotenv
 langchain
-langchain-core
 langchain-community
-
-# OpenAI Integration
 langchain-openai
 openai
-
-# Anthropic Integration
-langchain-anthropic
-
-# Google Gemini (PaLM) Integration
-langchain-google-genai
-google-generativeai
-
-# Hugging Face Integration
-langchain-huggingface
-transformers
-huggingface-hub
-
-# Environment Variable Management
-python-dotenv
-
-# Machine Learning Utilities
-numpy
-scikit-learn
-
-#youtube api 
-youtube-transcript-api
-
 faiss-cpu
-tiktoken
-
-#UI
-streamlit
-
-sentence-transformers
-pytube
-pinecone
-langchain-pinecone

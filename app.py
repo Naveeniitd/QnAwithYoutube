@@ -172,7 +172,12 @@ if st.session_state['answer'] is not None:
         if snippet:
             st.write(snippet[:1000] + ("…" if len(snippet) > 1000 else ""))
     with tabs[1]:
-        st.info("Retrieved chunks will be shown here (coming soon).")
+        if st.session_state['retrieved_docs']:
+            for i, doc in enumerate(st.session_state['retrieved_docs'], 1):
+                with st.expander(f"Chunk {i}"):
+                    st.write(doc.page_content)
+        else:
+            st.info("No retrieved chunks available yet.")
     with tab:
         st.markdown("✅ **Answer:**", unsafe_allow_html=True)
         st.markdown(
